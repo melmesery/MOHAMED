@@ -1,0 +1,59 @@
+
+.hero {
+    min-height: 100vh;
+    color: #fff;
+  }
+  
+  .hero .name {
+    font-size: 4rem;  
+  
+  }
+  
+  .hero .design {
+    color: #f8b57c;
+    font-weight: 600;
+  }
+  
+  .hero .develope {
+    color: #55cc61;
+    font-weight: 600;
+  }
+  
+  .hero .test {
+    color: #f5d74e;
+    font-weight: 600;
+  }
+  
+  .hero .contact-me {
+    border: #fff solid 1px;
+    background: none !important;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .contact-me a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .contact-me a:hover {
+    color: #fff;
+  }
+  
+  .hero .resume {
+    border: #fff solid 1px;
+    background: #fff !important;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .resume a {
+    text-decoration: none;
+    color: #181a51;
+  }
+  
+  .resume a:hover {
+    color: #181a51;
+  }

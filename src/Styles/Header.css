@@ -1,0 +1,20 @@
+.header {
+    color: #fff;
+}
+
+.header .title {
+    font-weight: 600;
+    background: #e13d2e5b;
+    padding: 2px;
+}
+
+.header a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.header a:hover {
+    color: #e13d2e5b;
+}
