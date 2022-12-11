@@ -1,74 +1,69 @@
 .about {
-    min-height: 100vh;
-  }
-  
+  padding: 50px 0;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.103) !important;
+}
+
+.about-row {
+  margin-top: 40px !important;
+}
+
+.about-me {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.info-card {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.info-card span {
+  color: #fff;
+  font-weight: 600;
+  margin-top: -10px !important;
+}
+
+.about-underline {
+  height: 2px;
+  width: 10% !important;
+  background: #f9bd09;
+}
+
+.cv {
+  text-decoration: none !important;
+  border: #e13d2e3d solid 2px;
+  display: block;
+  width: 25%;
+  text-align: center;
+  margin-top: 20px !important;
+  color: #fff;
+}
+
+.cv:hover {
+  background: #e13d2e5b;
+  color: #fff;
+}
+
+@media only screen and (max-width: 576px) {
   .info-card {
-    color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
-  
-  .info-card span {
-    background: #e13d2e5b;
-  }
-  
-  .skill-card {
-    background: none !important;
-    cursor: pointer;
-    color: #fff;
-    border: solid 1px rgba(255, 255, 255, 0.103) !important;
-    border-radius: 0 !important;
-  }
-  
-  .skill-card:hover {
-    color: #fff !important;
-    border-radius: 0 !important;
-  }
-  
-  .skill-card .name {
-    font-size: 2rem;
-    font-weight: 600;
-  }
-  
-  .skill-card .percent {
-    font-size: 1.5rem;
-    font-weight: 600;
-    display: none;
-  }
-  
-  .skill-card .icon {
-    font-size: 5rem;
-    margin-top: -20px;
-  }
-  
-  .skill-card:hover .name {
-    display: none;
-  }
-  
-  .skill-card:hover .percent {
-    display: block;
-  }
-  
-  .skill-card:hover .icon {
-    margin-bottom: 0 !important;
-  }
-  
-  .about-underline {
-      height: 2px;
-      width: 10%;
-      background: #F9BD09;
-  }
-  
+
   .cv {
-      text-decoration: none !important;
-      border: #e13d2e3d solid 2px;
-      display: block;
-      width: 20%;
-      text-align: center;
-      margin-top: 35px !important;
-      color: #fff;
+    margin-top: 20px !important;
+    width: 30%;
   }
-  
-  .cv:hover {
-      background: #e13d2e5b;
-      color: #fff;
+
+  .about-row {
+    margin-top: 20px !important;
   }
+
+  .tech {
+    margin-top: 30px !important;
+  }
+
+  .about-me {
+    text-align: justify;
+    font-size: 1.1rem;
+  }
+}

@@ -1,26 +1,16 @@
 import { Col, Container, Row } from "react-bootstrap";
 import "../Styles/Hero.css";
-import Header from "./Header";
 import profile from "../Images/profile.jpg";
 
 const Hero = () => {
   return (
     <section id="hero" className="hero">
-      <Header />
-
-      <Container>
-        <Row
-          className="d-flex align-items-center"
-          style={{ marginTop: "80px" }}
-        >
-          <Col md={{ span: 4 }} className='animate__animated animate__backInLeft'>
-            <img
-              src={profile}
-              alt="Mohamed El-Mesery"
-              className="profile w-100"
-            />
-          </Col>
-          <Col md={{ span: 8 }} className='animate__animated animate__bounceInDown'>
+      <Container fluid>
+        <Row className="hero-row d-flex align-items-center justify-content-center flex-wrap-reverse">
+          <Col
+            md={{ span: 7 }}
+            className="animate__animated animate__bounceInDown"
+          >
             <div className="hero-content text-center">
               <h1>
                 Frontend Web Developer <br />
@@ -34,7 +24,7 @@ const Hero = () => {
                 producing quality work.
               </p>
               <div className="d-flex gap-3 justify-content-center">
-                <button className="contact-me">
+                <button className="contact-me rounded-5">
                   <a
                     href="https://emailto:melmesery@outlook.com"
                     target={"_blank"}
@@ -43,7 +33,7 @@ const Hero = () => {
                     Contact Me
                   </a>
                 </button>
-                <button className="resume">
+                <button className="resume rounded-5">
                   <a
                     href="https://drive.google.com/file/d/1JB2nKMplgAt1sHrouHGMcrGLaWKIX7g3/view?usp=share_link"
                     target={"_blank"}
@@ -54,6 +44,16 @@ const Hero = () => {
                 </button>
               </div>
             </div>
+          </Col>{" "}
+          <Col
+            md={{ span: 4 }}
+            className="animate__animated animate__backInLeft"
+          >
+            <img
+              src={profile}
+              alt="Mohamed El-Mesery"
+              className="profile"
+            />
           </Col>
         </Row>
       </Container>

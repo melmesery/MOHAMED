@@ -1,10 +1,14 @@
 import React from "react";
+import "../Styles/Title.css";
 
 const Title = ({ title }) => {
   return (
-    <h1 className="fw-bold display-3 text-white text-center mt-3">
-      [ {title} ]
-    </h1>
+    <>
+      <h1 className="TITLE fw-bold display-4 text-white text-center">
+        {title}
+      </h1>
+      <div className="title-line"></div>
+    </>
   );
 };
 

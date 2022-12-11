@@ -1,0 +1,36 @@
+.footer-line {
+  height: 1px;
+  width: 75%;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.103);
+  border-radius: 40px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  margin: auto;
+  color: #fff;
+  justify-content: space-evenly;
+}
+
+.footer-icon {
+  margin-top: -10px !important;
+  color: #f9bd09;
+}
+
+.rights {
+  
+}
+
+@media only screen and (max-width: 576px) {
+  .footer-content {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .rights {
+    display: none;
+  }
+}

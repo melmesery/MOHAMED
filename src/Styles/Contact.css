@@ -1,27 +1,89 @@
+.contact {
+  /* min-height: 100vh; */
+  padding: 50px 0;
+}
+
+.contact-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .contact-card {
-    /* background: rgba(255, 255, 255, 0.264) !important; */
-    border: solid 1px rgba(255, 255, 255, 0.103) !important;
-    /* border: 0 !important; */
-    background: none !important;
-    border-radius: 0 !important;
+  border: solid 1px rgba(255, 255, 255, 0.103) !important;
+  background: none !important;
+  border-radius: 0 !important;
+  cursor: pointer;
+  width: 100%;
+}
+
+.contact-row {
+  margin-top: 40px !important;
+}
+
+.contact-card p {
+  font-size: 1.2rem;
+}
+
+.social-icon {
+  font-size: 2rem;
+  margin-top: -10px;
+}
+
+.social-container {
+  height: 50px;
+  width: 50px;
+  border: solid rgba(255, 255, 255, 0.103) 1px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transform: scale(0.9);
+}
+
+.social-container:hover {
+  background: rgba(255, 255, 255, 0.103) !important;
+}
+
+.services-card {
+  display: flex;
+  align-items: center;
+  background: none !important;
+  border: solid 1px rgba(255, 255, 255, 0.103) !important;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.number {
+  background: #e13d2e5b;
+  font-size: 4rem;
+  text-align: center;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+
+
+@media only screen and (max-width: 576px) {
+  .contact-card  {
+    margin: 0 auto;
   }
-  
+
+  .contact-card p {
+    font-size: 1.2rem;
+  }
+
   .social-icon {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: -10px;
   }
-  
+
   .social-container {
-    height: 50px;
-    width: 50px;
-    border: solid rgba(255, 255, 255, 0.103) 1px;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    transform: scale(0.9);
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
   }
-  
-  .social-container:hover {
-    background: rgba(255, 255, 255, 0.103) !important;
+
+  .contact-row {
+    margin-top: 20px !important;
   }
+}
