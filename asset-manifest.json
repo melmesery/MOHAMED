@@ -1,18 +1,20 @@
 {
-  "files": {
-    "main.css": "/MOHAMED/static/css/main.6790fcf5.css",
-    "main.js": "/MOHAMED/static/js/main.568be57c.js",
-    "static/media/project_2.png": "/MOHAMED/static/media/project_2.45eb4d8dd989733dcf55.png",
-    "static/media/project_1.png": "/MOHAMED/static/media/project_1.3f7b3d87581f3e5f4fe2.png",
-    "static/media/project_4.png": "/MOHAMED/static/media/project_4.15bf6b75603984ca2d9f.png",
-    "static/media/project_3.png": "/MOHAMED/static/media/project_3.4ed5fa0e9afdc1fd38b1.png",
-    "static/media/profile.jpg": "/MOHAMED/static/media/profile.1bf18f1f3e3bc6a4daaf.jpg",
-    "index.html": "/MOHAMED/index.html",
-    "main.6790fcf5.css.map": "/MOHAMED/static/css/main.6790fcf5.css.map",
-    "main.568be57c.js.map": "/MOHAMED/static/js/main.568be57c.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.6790fcf5.css",
-    "static/js/main.568be57c.js"
-  ]
+  "main.css": "/MOHAMED/static/css/main.73167a3f.chunk.css",
+  "main.js": "/MOHAMED/static/js/main.98ee4307.chunk.js",
+  "main.js.map": "/MOHAMED/static/js/main.98ee4307.chunk.js.map",
+  "static/css/1.661bb9e5.chunk.css": "/MOHAMED/static/css/1.661bb9e5.chunk.css",
+  "static/js/1.571bb959.chunk.js": "/MOHAMED/static/js/1.571bb959.chunk.js",
+  "static/js/1.571bb959.chunk.js.map": "/MOHAMED/static/js/1.571bb959.chunk.js.map",
+  "runtime~main.js": "/MOHAMED/static/js/runtime~main.2024334c.js",
+  "runtime~main.js.map": "/MOHAMED/static/js/runtime~main.2024334c.js.map",
+  "static/media/profile.jpg": "/MOHAMED/static/media/profile.64e05dae.jpg",
+  "static/media/project_1.png": "/MOHAMED/static/media/project_1.26fe9d38.png",
+  "static/media/project_2.png": "/MOHAMED/static/media/project_2.d89ec3a8.png",
+  "static/media/project_3.png": "/MOHAMED/static/media/project_3.597046b3.png",
+  "static/media/project_4.png": "/MOHAMED/static/media/project_4.cb1c4021.png",
+  "static/css/main.73167a3f.chunk.css.map": "/MOHAMED/static/css/main.73167a3f.chunk.css.map",
+  "static/css/1.661bb9e5.chunk.css.map": "/MOHAMED/static/css/1.661bb9e5.chunk.css.map",
+  "index.html": "/MOHAMED/index.html",
+  "precache-manifest.7577ba353e16048a7fc1e8d8a98c5280.js": "/MOHAMED/precache-manifest.7577ba353e16048a7fc1e8d8a98c5280.js",
+  "service-worker.js": "/MOHAMED/service-worker.js"
 }
